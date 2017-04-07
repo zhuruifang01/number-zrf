@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+
+    <script src="js/countup.js"></script>
+    <script src="js/aihao.js"></script>
+
+
+    <style>
+        #tagbox{
+            position: relative;margin: 20px auto 0;
+            width: 300px; height: 250px; background: #3a4954;
+        }
+        #tagbox a{
+            position: absolute; padding: 3px 6px; font-family:Microsoft YaHei;
+            color:#fff;top:0px;font-weight:bold;text-decoration:none;left:0px
+        }
+        #tagbox a:hover{border:#eee 1px solid;background:#000;}
+        #tagbox .blue{color:blue}
+        #tagbox .red{color:red}
+        #tagbox .yellow{color:yellow}
+    </style>
+</head>
+<body>
+<div id="myTargetElementaa" style="font-size:100px; font-family: arial;color:red;">222222</div>
+<div id="tagbox">
+    <a href="#">C语言</a>
+    <a class="red" href="#">C++</a>
+    <a href="#">Java</a>
+    <a href="#">Javascript</a>
+    <a class="blue" href="#">LESS</a>
+    <a href="#">SESS</a>
+    <a class="red" href="#">CSS</a>
+    <a class="yellow" href="#">HTML</a>
+    <a href="#">Python</a>
+    <a class="red" href="#">PHP</a>
+    <a href="#">QML</a>
+    <a class="blue" href="#">OC</a>
+    <a class="blue" href="#">Swift</a>
+    <a class="red" href="#">Andriod</a>
+    <a class="yellow" href="#">IOS</a>
+    <a class="yellow" href="#">Windows</a>
+    <a class="blue" href="#">C sharp</a>
+    <a class="yellow" href="#">Perl</a>
+    <a class="blue" href="#">Lisp</a>
+</div>
+
+
+
+
+</body>
+<script>
+
+        var options = {
+            useEasing : true,
+            easingFn : null,
+            useGrouping : false,
+        }
+        var demo = new CountUp("myTargetElementaa", 000001, 125356, 0, 2, options);
+        demo.start();
+
+</script>
+</html>
